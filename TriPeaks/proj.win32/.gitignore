@@ -1,0 +1,60 @@
+# Visual Studio / Windows 特定文件
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.obj
+*.exe
+*.lib
+*.exp
+*.manifest
+*.res
+*.aps
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.log
+*.tlog/
+*.lastbuildstate
+*.cache
+*.vsidx
+FileContentIndex/
+
+# cocos2d-x / 项目生成文件
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+_deps/
+cocos2d/cocos/
+cocos2d/external/
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+proj.win32/*.sln
+proj.win32/*.vcxproj*
+proj.win32/*.filters
+proj.win32/*.user
+proj.win32/build/
+runtime/
+out/
+bin/
+libs/
+res/Fonts/   # 如果你不改字体，可以忽略；否则别忽略 res/
+.cocos-project.json   # cocos 新建项目生成的配置文件，通常不需提交
+
+# 其他常见临时/缓存
+Thumbs.db
+*.DS_Store
+.idea/               # 如果你偶尔用 IntelliJ
+*.swp
+*.bak
+*.tmp
